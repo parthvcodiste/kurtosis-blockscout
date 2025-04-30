@@ -30,7 +30,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_TRANSACTION_INTERPRETATION_PROVIDER": "blockscout",
         ## API configuration.
         # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#api-configuration
-        "NEXT_PUBLIC_API_PROTOCOL": "http",
+        "NEXT_PUBLIC_API_PROTOCOL": "https",
         "NEXT_PUBLIC_API_HOST": api_host,
         "NEXT_PUBLIC_API_PORT": api_port,
         "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "ws",
