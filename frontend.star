@@ -43,7 +43,7 @@ def run(plan, cfg, stack_info):
             stack_info["visualize_host"], stack_info["visualize_port"]
         ),
         # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#app-configuration
-        "NEXT_PUBLIC_APP_PROTOCOL": "http",
+        "NEXT_PUBLIC_APP_PROTOCOL": "https",
         "NEXT_PUBLIC_APP_HOST": service_ip or "127.0.0.1",
         "NEXT_PUBLIC_APP_PORT": str(service_port),
         "NEXT_PUBLIC_USE_NEXT_JS_PROXY": "false",
