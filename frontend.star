@@ -33,7 +33,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_API_PROTOCOL": "https",
         "NEXT_PUBLIC_API_HOST": api_host,
         # "NEXT_PUBLIC_API_PORT": api_port,
-        "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "ws",
+        "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "wss",
         # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#blockchain-statistics
         "NEXT_PUBLIC_STATS_API_HOST": "http://{}:{}".format(
             stack_info["stats_host"], stack_info["stats_port"]
