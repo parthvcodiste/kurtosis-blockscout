@@ -46,7 +46,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_APP_PROTOCOL": "http",
         "NEXT_PUBLIC_APP_HOST": service_ip or "127.0.0.1",
         "NEXT_PUBLIC_APP_PORT": str(service_port),
-        "NEXT_PUBLIC_USE_NEXT_JS_PROXY": "true",
+        "NEXT_PUBLIC_USE_NEXT_JS_PROXY": "false",
         ## Remove ads.
         # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#banner-ads
         "NEXT_PUBLIC_AD_BANNER_PROVIDER": "none",
