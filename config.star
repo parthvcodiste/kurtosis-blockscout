@@ -1,7 +1,7 @@
 # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#transaction-interpretation
 # https://docs.blockscout.com/for-developers/information-and-settings/env-variables
 DB_PORT = 5432
-TITLE = "Polygon CDK"
+TITLE = "Buburuza"
 IMAGE_POSTGRES = "postgres:17.0"
 IMAGE_BACKEND = "blockscout/blockscout-zkevm:6.8.1"
 IMAGE_STATS = "ghcr.io/blockscout/stats:v2.1.1"
