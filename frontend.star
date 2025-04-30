@@ -52,7 +52,10 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_AD_BANNER_PROVIDER": "none",
         # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#text-ads
         "NEXT_PUBLIC_AD_TEXT_PROVIDER": "none",
+        "NEXT_PUBLIC_NETWORK_LOGO": "https://buburuza-bank-bot.s3.eu-central-1.amazonaws.com/unnamed.png",
         "NEXT_PUBLIC_NETWORK_LOGO_DARK": "https://buburuza-bank-bot.s3.eu-central-1.amazonaws.com/unnamed.png",
+        "NEXT_PUBLIC_NETWORK_ICON": "https://buburuza-bank-bot.s3.eu-central-1.amazonaws.com/unnamed.png",
+        "NEXT_PUBLIC_NETWORK_ICON_DARK": "https://buburuza-bank-bot.s3.eu-central-1.amazonaws.com/unnamed.png",
     }
     if swap_url:
         swap_item = {"text": "Polygon zkEVM Bridge", "icon": "swap", "url": swap_url}
