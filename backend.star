@@ -53,9 +53,10 @@ def run(plan, cfg):
         "DISABLE_INDEXER": "false",
         "INDEXER_ZKEVM_BATCHES_ENABLED": "true",
         "API_V2_ENABLED": "true",
-        "BLOCKSCOUT_PROTOCOL": "http",
+        "BLOCKSCOUT_PROTOCOL": "https",
         "INDEXER_POLYGON_ZKEVM_BATCHES_ENABLED": "true",
         "BRIDGED_TOKENS_ENABLED": "true",
+        "CHECK_ORIGIN": "false",
     }
     if l1_rpc_url:
         env_vars["INDEXER_POLYGON_ZKEVM_L1_RPC"] = l1_rpc_url
