@@ -56,7 +56,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_NETWORK_LOGO_DARK": "https://googlelensdemo.s3.ap-south-1.amazonaws.com/NEOBANK+2.png",
         "NEXT_PUBLIC_NETWORK_ICON": "https://googlelensdemo.s3.ap-south-1.amazonaws.com/Square+black.png",
         "NEXT_PUBLIC_NETWORK_ICON_DARK": "https://googlelensdemo.s3.ap-south-1.amazonaws.com/Square+white.png",
-        "FAVICON_MASTER_URL": "https://googlelensdemo.s3.ap-south-1.amazonaws.com/Square+black.png",
+        "FAVICON_MASTER_URL": "https://googlelensdemo.s3.ap-south-1.amazonaws.com/Square+white+(1).ico",
     }
     if swap_url:
         swap_item = {"text": "Polygon zkEVM Bridge", "icon": "swap", "url": swap_url}
